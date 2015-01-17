@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type= "text/css" href= "bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+	<style>
+	body {
+	background-color: floralwhite;
+}
+
+
+a:link {
+	font-family: "Quicksand";
+	font-size: 20px;
+	color: green;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: "Quicksand";
+	font-size: 20px;
+	color: yellow;
+	text-decoration: underline;
+}
+
+a:hover {
+	font-family: "Quicksand";
+	font-size: 20px;
+	color: yellow;
+	text-decoration: none;
+}
+
+a:active {
+	font-family: "Quicksand";
+	font-size: 20px;
+	color: yellow;
+	text-decoration: underline;
+}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<a href="deltasigumich.org/About" class="btn btn-link" role="button">ABOUT</a>
+
+		<a href="deltasigumich.org/Members" class="btn btn-link" role="button">MEMBERS</a>
+
+		<a href="deltasigumich.org/Philanthropy" class="btn btn-link" role="button">PHILANTHROPY</a><!-- Single button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+ PHILANTHROPY<span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">AMERICAN RED CROSS</a></li>
+    <li><a href="#">OTHER PHILANTHROPY</a></li>
+  </ul>
+</div>
+
+		<a href="deltasigumich.org/Events" class="btn btn-link" role="button">EVENTS</a>
+
+		<a href="deltasigumich.org/Contact" class="btn btn-link" role="button">CONTACT US</a>
+	</div>
+
+
+
+<a href="deltasigumich.org">
+<img src="crest.jpg" style="width:125px;height:125px">
+</a>
+</html>
+
+<!--FloralWhite-->
