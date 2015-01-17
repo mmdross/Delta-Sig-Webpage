@@ -1,0 +1,32 @@
+body {
+	background-color: floralwhite;
+}
+
+
+a:link {
+	font-family: "Palatino Linotype";
+	font-size: 20px;
+	color: green;
+	text-decoration: none;
+}
+
+a:visited {
+	font-family: "Palatino Linotype";
+	font-size: 20px;
+	color: yellow;
+	text-decoration: underline;
+}
+
+a:hover {
+	font-family: "Palatino Linotype";
+	font-size: 20px;
+	color: yellow;
+	text-decoration: none;
+}
+
+a:active {
+	font-family: "Palatino Linotype";
+	font-size: 20px;
+	color: yellow;
+	text-decoration: underline;
+}
